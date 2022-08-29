@@ -49,7 +49,7 @@ namespace BinaryTree_Implementation
             return root;
 
         }
-        //IMPROVED METHOD TO TAKE INPUT FROM THE USER AS THE USER WILL HAVE TRACE OF RELATIONSHIP BETWEEN PARENT AND CHILD
+        // IMPROVED METHOD TO TAKE INPUT FROM THE USER AS THE USER WILL HAVE TRACE OF RELATIONSHIP BETWEEN PARENT AND CHILD
         public static BinaryTreeNode<int> takeTreeInputBetter(bool isRoot, int parentData, bool isLeft)
         {
             if (isRoot)
